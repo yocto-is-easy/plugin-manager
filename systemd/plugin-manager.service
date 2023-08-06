@@ -1,0 +1,9 @@
+[Unit]
+Description=Plugin manager
+
+[Service]
+ExecStart=/usr/bin/plugin-manager-service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
